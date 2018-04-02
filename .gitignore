@@ -106,5 +106,8 @@ venv.bak/
 
 
 ## Vim
-.sw[a-p]
+*.sw[a-p]
+
+## Intellij Project folder
+.idea/
 
