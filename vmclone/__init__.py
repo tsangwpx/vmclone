@@ -15,3 +15,6 @@ def clone_vm(domain, *args, **kwargs):
     yield vmt
 
     vmt.commit()
+
+
+__all__ = ['VMTransaction', 'BadStageError', 'SnapshotDisk', 'default_disk_filter', 'clone_vm']
