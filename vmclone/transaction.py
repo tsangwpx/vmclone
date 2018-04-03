@@ -184,7 +184,7 @@ class VMTransaction:
         return self._snapshot_flags
 
     @property
-    def snapshot_disks(self):
+    def snapshot_disks(self) -> typing.Sequence[SnapshotDisk]:
         self._check_stage_between(TransactionStage.PREPARED)
 
         if self._snapshot_disks_readonly is None:

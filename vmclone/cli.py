@@ -1,10 +1,9 @@
 import logging
 import os
-from argparse import ArgumentParser
 import subprocess
+from argparse import ArgumentParser
 
 import libvirt
-from lxml import etree
 
 from .transaction import VMTransaction
 
